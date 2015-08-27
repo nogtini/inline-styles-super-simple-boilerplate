@@ -1,0 +1,24 @@
+{
+  "name": "inline-styles-super-simple-boilerplate",
+  "version": "1.0.0",
+  "description": "Up and running in second.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "file-loader": "^0.8.4",
+    "radium": "^0.13.8",
+    "react-hot-loader": "^1.2.9",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
