@@ -1,26 +1,13 @@
 import React from "react";
 import Radium from "radium";
+import styles from "./moon.scss";
 
-@Radium
-export default class World extends React.Component {
+export default class Moon extends React.Component {
   render () {
     return (
-      <span style={styles.base}>
+      <span className={ styles.moon }>
         Moon!
       </span>
     );
   };
 }
-
-var styles = {
-  base: {
-    background: 'mintCream',
-    color: 'mediumBlue',
-    border: '2px dashed blue',
-    borderRadius: 50,
-    padding: '1em',
-    ':hover': {
-      background: 'khaki'
-    }
-  }
-};

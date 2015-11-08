@@ -1,0 +1,11 @@
+.moon {
+  background: mintCream;
+  color: mediumBlue;
+  border: 2px dashed blue;
+  border-radius: 50;
+  padding: 1em;
+
+  &:hover {
+    background: lightBlue;
+  }
+}

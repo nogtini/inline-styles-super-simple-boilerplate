@@ -1,4 +1,6 @@
+//from App
 import React from "react";
+import ReactDOM from "react-dom";
 import Radium from "radium";
 import Moon from "./Moon";
 
@@ -16,8 +18,8 @@ class Greeting extends React.Component {
 var styles = {
   base: {
     paddingTop: '50px',
-    border: '2px dotted lightGray',
+    border: '2px dotted lightGray'
   }
 };
 
-React.render(<Greeting name="World"/>, document.body);
+ReactDOM.render(<Greeting name="World"/>, document.getElementById('target'));
