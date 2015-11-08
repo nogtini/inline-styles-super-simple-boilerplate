@@ -1,11 +1,10 @@
 //from App
 import React from "react";
-import ReactDOM from "react-dom";
 import Radium from "radium";
 import Moon from "./Moon";
 
 @Radium
-class Greeting extends React.Component {
+export default class Greeting extends React.Component {
   render () {
     return (
       <div style={styles.base}>
@@ -21,5 +20,3 @@ var styles = {
     border: '2px dotted lightGray'
   }
 };
-
-ReactDOM.render(<Greeting name="World"/>, document.getElementById('target'));
