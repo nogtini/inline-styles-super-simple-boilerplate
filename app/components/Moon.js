@@ -1,13 +1,13 @@
-import React from "react";
-import Radium from "radium";
-import styles from "./moon.scss";
+// from App
+import React from 'react';
+import styles from './moon.scss';
 
 export default class Moon extends React.Component {
-  render () {
+  render() {
     return (
       <span className={ styles.moon }>
         Moon!
       </span>
     );
-  };
+  }
 }
